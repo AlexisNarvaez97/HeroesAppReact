@@ -6,7 +6,7 @@ import { Navbar } from "../components/ui/NavBar";
 import { MarvelScreen } from "../components/marvel/MarvelScreen";
 import { HeroesScreen } from "../components/heroes/HeroesScreen";
 import { DcScreen } from "../components/dc/DcScreen";
-import SearchScreen from "../components/search/SearchScreen";
+import { SearchScreen } from "../components/search/SearchScreen";
 
 export const DashboardRouter = () => {
   return (
