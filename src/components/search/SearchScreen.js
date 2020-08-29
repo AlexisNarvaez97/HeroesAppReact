@@ -1,5 +1,4 @@
 import React, { useMemo } from "react";
-import { heroes } from "../../data/heroes";
 import { HeroCard } from "../heroes/HeroCard";
 import { useForm } from "../../hooks/useForm";
 import { useLocation } from "react-router-dom";
@@ -12,7 +11,7 @@ export const SearchScreen = ({ history }) => {
   const { q = "" } = queryString.parse(location.search);
   //   console.log(q);
 
-  const [formValues, handleInputChange, reset] = useForm({
+  const [formValues, handleInputChange] = useForm({
     searchText: q,
   });
 
