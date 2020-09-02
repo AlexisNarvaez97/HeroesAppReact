@@ -8,7 +8,8 @@ import { HeroesScreen } from "../components/heroes/HeroesScreen";
 import { DcScreen } from "../components/dc/DcScreen";
 import { SearchScreen } from "../components/search/SearchScreen";
 
-export const DashboardRouter = () => {
+export const DashboardRouter = ( ) => {
+
   return (
     <>
       <Navbar />
